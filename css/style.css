@@ -7,6 +7,10 @@ body {
   font-family: 'Gilam';
 }
 
+.light-theme {
+  background-color: cornflowerblue;
+}
+
 .wrapper {
   width: 76%;
   margin: 0 auto;
@@ -39,6 +43,18 @@ header .callback-ref > a > i {
   color: #e4b564;
   margin-right: 10px;
 }
+header .callback-ref > a.light-ref {
+  color: white;
+  border-color: white;
+}
+
+header .callback-ref > a > i.light-icon {
+  color: white;
+}
+header .callback-ref > a.theme-mode {
+  padding: 10px;
+}
+
 /* network-section */
 .network-section {
   color: #ffffff;
